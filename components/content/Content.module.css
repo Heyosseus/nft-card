@@ -1,0 +1,39 @@
+.flexbox{
+    display: flex;
+    margin: 24px;
+    justify-content: space-between;
+}
+
+.div{
+    display: flex;
+}
+.eth{
+    background-image: url(../../assets/icon-ethereum.svg);
+    width: 11px;
+    height: 17.2px;
+}
+
+.cyan__heading{
+    color: var(--cyan);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.16px;
+    font-family: var(--font);
+    margin-left: 7px;
+}
+
+.clock{
+    background-image: url(../../assets/icon-clock.svg);
+    width: 15px;
+    height: 15px;
+}
+
+.softBlue__heading{
+    color: var(--soft-blue);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font);
+    line-height: 20.16px;
+    margin-left: 7px;
+}
+

@@ -1,0 +1,44 @@
+.line {
+    background: var(--line);
+    width: 302px;
+    height: 1px;
+    margin-left: 24px;
+}
+.flex{
+    display: flex;
+}
+.avatar{
+    background-image: url(../../assets/image-avatar.png);
+    width: 33px;
+    height: 33px;
+    background-size: contain;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.softBlue__p{
+    color: var(--soft-blue);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font);
+    margin-top: 24px;
+    margin-left: 16px;
+    line-height: 20px;
+}
+.span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font);
+    margin-top: 24px;
+    margin-left: 1px;
+    line-height: 20px;
+}
+
+.span:hover{
+    cursor: pointer;
+    color: var(--cyan);
+    transition: all 0.6s ease-in-out;
+}
