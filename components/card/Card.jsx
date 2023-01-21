@@ -3,7 +3,7 @@ import card from './Card.module.css'
 const Card = () => {
   return (
       <div className={card.container}>
-      <div className={`${card.card} ${card.overlay}`}>
+      <div className={card.card}>
               <div className={card.img}></div>
       </div>
       

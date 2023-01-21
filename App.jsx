@@ -11,8 +11,6 @@ function App() {
         <Card />
         <Content />
         <Footer />
-
-        
       </div>
     </div>
   );

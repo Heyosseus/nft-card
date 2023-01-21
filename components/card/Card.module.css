@@ -27,16 +27,14 @@
     top: 44%;
     left: 42%;
     cursor: pointer;
+    
 }
 
 
 .card:hover{
     background: url(../../assets/image-equilibrium.jpg) var(--cyan);
     background-size: cover;
-    box-shadow: inset 0 0 0 200px rgba(0,255,249, 0.53);   
-   
-
-    
+    box-shadow: inset 0 0 0 200px rgba(0,255,249, 0.53);    
 }
 
 
